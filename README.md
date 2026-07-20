@@ -1,31 +1,68 @@
-# AWS Cloud Automation
+**AWS Cloud Automation**
 
-## Overview
+**Project Overview**
 
-AWS cloud automation using AWS CLI, Bash scripting, Systems Manager, and operational best practices.
+Cloud automation project demonstrating AWS operational automation using AWS CLI, Bash scripting, and AWS Systems Manager.
 
-## Technologies
+**Project Goal**
+
+Automate common cloud operations and infrastructure management tasks using scripting and AWS automation services.
+
+**Architecture**
+
+```text
+Administrator
+      │
+      ▼
+AWS CLI / Bash Scripts
+      │
+      ▼
+AWS Systems Manager
+      │
+      ▼
+AWS Infrastructure
+```
+
+**Technologies**
 
 - AWS CLI
 - Bash
 - AWS Systems Manager
+- Shell Scripting
 
-## Features
+**Features**
 
 - Cloud automation
-- Operational scripts
+- Operational scripting
 - Systems management
 - Infrastructure operations
 
-## Project Structure
+**Project Structure**
 
-- automation/
-- aws-cli/
-- scripts/
-- ssm/
-- diagrams/
-- screenshots/
+```text
+automation/
+aws-cli/
+scripts/
+ssm/
+diagrams/
+screenshots/
+```
 
-## Status
+**Key Learnings**
 
-Completed
+- AWS CLI automation
+- Bash scripting
+- AWS Systems Manager
+- Operational automation
+- Infrastructure management
+
+**Status**
+
+✅ Completed
+
+**Future Improvements**
+
+- Automate deployments with CI/CD
+- Add Infrastructure as Code integration
+- Implement scheduled automation
+- Add centralized logging
