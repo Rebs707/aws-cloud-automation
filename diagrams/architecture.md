@@ -1,15 +1,14 @@
-# AWS Cloud Automation Architecture
+# Architecture
 
+```text
 Administrator
-      |
-      v
-AWS CLI
-      |
-      v
-Automation Scripts
-      |
-      v
-Systems Manager
-      |
-      v
-AWS Resources
+      │
+      ▼
+AWS CLI / Bash Scripts
+      │
+      ▼
+AWS Systems Manager
+      │
+      ▼
+AWS Infrastructure
+```
